@@ -126,6 +126,7 @@ public class Main {
 						shareNumber.remove(input - 1);
 						System.out.println("Participant succesfully removed from event");
 						scan.nextLine();
+						counter--;
 					}
 				}
 			}else if(menu == 4) {
